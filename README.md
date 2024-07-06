@@ -84,6 +84,13 @@ GITHUB_REDIRECT_URL=http://localhost:8000/auth/github/callback
 ```
 Now your app is ready to login with github.
 
+### Further steps
+- Also when you make changes on env - do this command before test your application
+```sh
+php artisan cache:clear
+php artisan optimize
+php artisan serve
+```
 
 <br />
 <p align="center">⭐️ Star my repositories if you find it helpful.</p>
